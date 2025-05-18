@@ -1,5 +1,7 @@
 {
-    "logo": "Kodaikanal AG Church",
+    "preHeader": {
+        "text": "Where prayers rise like morning mist, Faith blooms in mountain air, And hearts find rest in the presence of God."
+    },
     "menuItems": [
         {
             "name": "Home",
@@ -8,6 +10,18 @@
         {
             "name": "About",
             "href": "/about"
+        },
+        {
+            "name": "Ministries",
+            "href": "/ministries"
+        },
+        {
+            "name": "Sermons",
+            "href": "/sermons"
+        },
+        {
+            "name": "Events",
+            "href": "/events"
         },
         {
             "name": "Contact",

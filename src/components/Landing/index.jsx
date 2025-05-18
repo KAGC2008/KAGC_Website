@@ -5,7 +5,7 @@ const Landing = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="h-[100dvh]">{children}</main>
+      <main>{children}</main>
       <Footer />
     </>
   );
