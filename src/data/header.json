@@ -1,0 +1,17 @@
+{
+    "logo": "Kodaikanal AG Church",
+    "menuItems": [
+        {
+            "name": "Home",
+            "href": "/"
+        },
+        {
+            "name": "About",
+            "href": "/about"
+        },
+        {
+            "name": "Contact",
+            "href": "/contact"
+        }
+    ]
+}

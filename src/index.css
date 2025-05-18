@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(246, 246, 246, 0.968);
   color: #242424;
+
+  --primary-color: #DB1857;
+  --secondary-color: #320B59;
+  --text-color: #312F2F;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,8 +34,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
